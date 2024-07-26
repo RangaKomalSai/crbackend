@@ -65,7 +65,7 @@ CSRF_TRUSTED_ORIGINS = ['http://localhost:3000','https://*.127.0.0.1']
 
 CSRF_COOKIE_HTTPONLY = False
 
-ROOT_URLCONF = 'newcr.urls'
+ROOT_URLCONF = 'crbackend.urls'
 
 TEMPLATES = [
     {
@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'newcr.wsgi.application'
+WSGI_APPLICATION = 'crbackend.wsgi.application'
 
 
 # Database
